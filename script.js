@@ -1,5 +1,5 @@
 var show = function(elem){
-    document.getElementById(elem).style.color="#000000";
+    document.getElementById(elem).style.color="#99FFFF";
 }
 
 window.onload = function(){ 
