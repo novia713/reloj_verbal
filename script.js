@@ -2,6 +2,7 @@ var show = function(elem){
     document.getElementById(elem).style.backgroundColor="#000000";
 }
 
+window.onload = function(){ 
     var d = new Date();
     var hora = d.getHours(); 
     var min  = d.getMinutes(); 
@@ -88,4 +89,4 @@ var show = function(elem){
     }else{
         
     }
-
+} 
