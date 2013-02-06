@@ -1,0 +1,24 @@
+{
+  "name": "Reloj verbal",
+  "description": "A proof of concept for a verbal clock in spanish",
+  "icons": {
+    "60": "/img/clock60.png",
+    "30": "/img/clock30.png"
+  },
+  "developer": {
+    "name": "Leandro Vázquez Cervantes",
+    "url": "http://leandro.org"
+  },
+  "activities": {
+		"share": {
+		  "filters": {
+		    "type": [ "image/png", "image/gif" ]
+		  },
+		  "href": "clock.html",
+		  "disposition": "window"
+		}
+	},
+	"launch_path": "clock.html",
+  "default_locale": "es",
+  "fullscreen": "true"
+}
